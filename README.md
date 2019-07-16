@@ -93,7 +93,7 @@ sudo unzip terraform_0.11.11_linux_amd64.zip -d /usr/bin/
 
 We can only get stuff out of variable or data “provider” 
 
-
+```
 terraform {
     backend "s3" {
         bucket = "terraform-learn-user14"
@@ -101,7 +101,7 @@ terraform {
         region = "ap-northeast-2"
     }
 }
-
+```
  # file provisioner to copy file from local to target machine
 Another is “remote-exec” 
 “Cloud-init”
