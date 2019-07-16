@@ -1,16 +1,12 @@
 use remote tfstate storage 
-output ips of all ec2 instances created 
-spread all vms on atleast 2 availability zones 
-use variables to determine availability zones 
-make sure create happens before destroy 
-
-
 
 2 frontend nginx in region1 - t2.micro 
 2 backend sqllite in region2 - t2.micro 
 
+output ips of all ec2 instances created 
+
+spread all vms on atleast 2 availability zones 
+use variables to determine availability zones 
 
 
-sudo apt-get install sqllite3 
-
-
+make sure create happens before destroy 
