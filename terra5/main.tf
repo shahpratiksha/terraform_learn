@@ -7,23 +7,13 @@ provider "aws" {
     region = "ap-northeast-1"
 }
 
-data "aws_region" "region1" {
-    provider = "aws.aws1"
-}
-
-data "aws_region" "region2" {
-    provider = "aws.aws2"
-}
 
 provider "aws" {
     alias = "aws2"
     region = "ap-northeast-2"
 }
 
-data "aws_availability_zones" "aws1_zones" {}
-data "aws_availability_zones" "aws2_zones" {
-    provider = "aws.aws2"
-}
+
 
 locals {
     default_front_name="${join("-", list(var.env-name,"frontend"))}"
@@ -32,7 +22,7 @@ locals {
 
 resource "aws_instance" "east1_fe" {
     count=2
-    tags {
+    tags ={
         Name = "${local.default_front_name}"
         User = "user14"
     }
@@ -46,7 +36,7 @@ resource "aws_instance" "east1_fe" {
 
 resource "aws_instance" "east1_be" {
     count=2
-    tags {
+    tags= {
         Name = "${local.default_back_name}"
         User = "user14"
     }
@@ -59,7 +49,7 @@ resource "aws_instance" "east1_be" {
 
 resource "aws_instance" "east2_fe" {
     count = "${var.multi-region-deployment ? 1:0}"
-    tags {
+    tags ={
         Name = "${local.default_front_name}"
         User = "user14"
     }
@@ -73,7 +63,7 @@ resource "aws_instance" "east2_fe" {
 
 resource "aws_instance" "east2_be" {
     count = "${var.multi-region-deployment ? 1:0}"
-    tags {
+    tags ={
         Name = "${local.default_back_name}"
         User = "user14"
     }

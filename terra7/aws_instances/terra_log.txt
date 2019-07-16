@@ -1,0 +1,204 @@
+2019/07/16 20:46:14 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:46:14 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:46:14 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:46:14 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:46:14 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:46:14 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:46:55 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:46:55 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:46:55 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:46:55 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:46:55 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:46:55 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:49:04 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:49:04 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:49:04 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:49:04 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:49:04 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:49:04 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:49:06 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:49:06 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:49:06 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:49:06 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:49:06 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:49:06 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:49:14 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:49:14 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:49:14 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:49:14 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:49:14 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:49:14 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:49:18 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:49:18 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:49:18 [INFO] CLI args: []string{"/usr/bin/terraform", "init"}
+2019/07/16 20:49:18 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:49:18 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:49:18 [INFO] CLI command args: []string{"init"}
+2019/07/16 20:49:18 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2019/07/16 20:49:18 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2019/07/16 20:49:18 [DEBUG] New state was assigned lineage "022d96cf-3ef9-628c-6cc0-f62a56dbf186"
+2019/07/16 20:49:18 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2019/07/16 20:49:18 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2019/07/16 20:49:18 [DEBUG] checking for provider in "."
+2019/07/16 20:49:18 [DEBUG] checking for provider in "/usr/bin"
+2019/07/16 20:49:18 [DEBUG] checking for provisioner in "."
+2019/07/16 20:49:18 [DEBUG] checking for provisioner in "/usr/bin"
+2019/07/16 20:49:18 [INFO] Failed to read plugin lock file .terraform/plugins/linux_amd64/lock.json: open .terraform/plugins/linux_amd64/lock.json: no such file or directory
+2019/07/16 20:49:18 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2019/07/16 20:49:18 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2019/07/16 20:49:18 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2019/07/16 20:49:18 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2019/07/16 20:49:18 [TRACE] statemgr.Filesystem: read nil snapshot
+2019/07/16 20:49:18 [DEBUG] checking for provider in "."
+2019/07/16 20:49:18 [DEBUG] checking for provider in "/usr/bin"
+2019/07/16 20:49:18 [DEBUG] plugin requirements: "aws"=""
+2019/07/16 20:49:18 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2019/07/16 20:49:18 [DEBUG] fetching provider versions from "https://registry.terraform.io/v1/providers/-/aws/versions"
+2019/07/16 20:49:18 [DEBUG] fetching provider location from "https://registry.terraform.io/v1/providers/terraform-providers/aws/2.19.0/download/linux/amd64"
+2019/07/16 20:49:18 [DEBUG] verified GPG signature with key from HashiCorp Security <security@hashicorp.com>
+2019/07/16 20:49:18 [DEBUG] getting provider "aws" (terraform-providers/aws) version "2.19.0"
+2019/07/16 20:49:18 [DEBUG] plugin cache is disabled, so downloading aws 2.19.0 from https://releases.hashicorp.com/terraform-provider-aws/2.19.0/terraform-provider-aws_2.19.0_linux_amd64.zip?checksum=sha256:dea501d2465fcd910ab0a422ace9e344e464d7cf4416245b7918b07165eb3188
+2019/07/16 20:49:20 [DEBUG] looking for the aws 2.19.0 plugin we just installed
+2019/07/16 20:49:20 [DEBUG] checking for provider in ".terraform/plugins/linux_amd64"
+2019/07/16 20:49:20 [DEBUG] found provider "terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:49:20 [DEBUG] all plugins found discovery.PluginMetaSet{discovery.PluginMeta{Name:"aws", Version:"2.19.0", Path:"/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4"}:struct {}{}}
+2019/07/16 20:49:20 [DEBUG] filtered plugins discovery.PluginMetaSet{discovery.PluginMeta{Name:"aws", Version:"2.19.0", Path:"/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4"}:struct {}{}}
+2019/07/16 20:49:20 [DEBUG] checking for provider in "."
+2019/07/16 20:49:20 [DEBUG] checking for provider in "/usr/bin"
+2019/07/16 20:49:20 [DEBUG] checking for provider in ".terraform/plugins/linux_amd64"
+2019/07/16 20:49:20 [DEBUG] found provider "terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:49:20 [DEBUG] found valid plugin: "aws", "2.19.0", "/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:49:21 [DEBUG] checking for provider in ".terraform/plugins/linux_amd64"
+2019/07/16 20:49:21 [DEBUG] found provider "terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:53:54 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:53:54 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:53:54 [INFO] CLI args: []string{"/usr/bin/terraform", "plan"}
+2019/07/16 20:53:54 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:53:54 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:53:54 [INFO] CLI command args: []string{"plan"}
+2019/07/16 20:53:54 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2019/07/16 20:53:54 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2019/07/16 20:53:54 [DEBUG] New state was assigned lineage "cfabd57f-add6-bacc-72fd-d64abb962dc9"
+2019/07/16 20:53:54 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2019/07/16 20:53:54 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2019/07/16 20:53:54 [DEBUG] checking for provider in "."
+2019/07/16 20:53:54 [DEBUG] checking for provider in "/usr/bin"
+2019/07/16 20:53:54 [DEBUG] checking for provider in ".terraform/plugins/linux_amd64"
+2019/07/16 20:53:54 [DEBUG] found provider "terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:53:54 [DEBUG] found valid plugin: "aws", "2.19.0", "/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:53:54 [DEBUG] checking for provisioner in "."
+2019/07/16 20:53:54 [DEBUG] checking for provisioner in "/usr/bin"
+2019/07/16 20:53:54 [DEBUG] checking for provisioner in ".terraform/plugins/linux_amd64"
+2019/07/16 20:53:54 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2019/07/16 20:53:54 [INFO] backend/local: starting Plan operation
+2019/07/16 20:53:54 [TRACE] backend/local: requesting state manager for workspace "default"
+2019/07/16 20:53:54 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2019/07/16 20:53:54 [TRACE] backend/local: requesting state lock for workspace "default"
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: preparing to manage state snapshots at terraform.tfstate
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: no previously-stored snapshot exists
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: locking terraform.tfstate using fcntl flock
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: writing lock metadata to .terraform.tfstate.lock.info
+2019/07/16 20:53:54 [TRACE] backend/local: reading remote state for workspace "default"
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: reading latest snapshot from terraform.tfstate
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2019/07/16 20:53:54 [TRACE] statemgr.Filesystem: read nil snapshot
+2019/07/16 20:53:54 [TRACE] backend/local: retrieving local state snapshot for workspace "default"
+2019/07/16 20:53:54 [TRACE] backend/local: building context for current working directory
+2019/07/16 20:53:54 [TRACE] terraform.NewContext: starting
+2019/07/16 20:53:54 [TRACE] terraform.NewContext: resolving provider version selections
+2019/07/16 20:53:55 [TRACE] terraform.NewContext: loading provider schemas
+2019/07/16 20:53:55 [TRACE] LoadSchemas: retrieving schema for provider type "aws"
+2019-07-16T20:53:55.453Z [INFO]  plugin: configuring client automatic mTLS
+2019-07-16T20:53:55.497Z [DEBUG] plugin: starting plugin: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 args=[/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4]
+2019-07-16T20:53:55.498Z [DEBUG] plugin: plugin started: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 pid=26263
+2019-07-16T20:53:55.498Z [DEBUG] plugin: waiting for RPC address: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4
+2019-07-16T20:53:55.520Z [INFO]  plugin.terraform-provider-aws_v2.19.0_x4: configuring server automatic mTLS: timestamp=2019-07-16T20:53:55.520Z
+2019-07-16T20:53:55.571Z [DEBUG] plugin.terraform-provider-aws_v2.19.0_x4: plugin address: network=unix address=/tmp/plugin170534458 timestamp=2019-07-16T20:53:55.571Z
+2019-07-16T20:53:55.571Z [DEBUG] plugin: using plugin: version=5
+2019/07/16 20:53:55 [TRACE] GRPCProvider: GetSchema
+2019/07/16 20:53:55 [TRACE] GRPCProvider: Close
+2019-07-16T20:53:55.749Z [DEBUG] plugin: plugin process exited: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 pid=26263
+2019-07-16T20:53:55.749Z [DEBUG] plugin: plugin exited
+2019/07/16 20:53:55 [TRACE] LoadSchemas: retrieving schema for provisioner "remote_exec"
+2019/07/16 20:53:55 [TRACE] statemgr.Filesystem: removing lock metadata file .terraform.tfstate.lock.info
+2019/07/16 20:53:55 [TRACE] statemgr.Filesystem: unlocking terraform.tfstate using fcntl flock
+2019/07/16 20:54:27 [INFO] Terraform version: 0.12.4  
+2019/07/16 20:54:27 [INFO] Go runtime version: go1.12.4
+2019/07/16 20:54:27 [INFO] CLI args: []string{"/usr/bin/terraform", "plan"}
+2019/07/16 20:54:27 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019/07/16 20:54:27 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019/07/16 20:54:27 [INFO] CLI command args: []string{"plan"}
+2019/07/16 20:54:27 [TRACE] Meta.Backend: no config given or present on disk, so returning nil config
+2019/07/16 20:54:27 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2019/07/16 20:54:27 [DEBUG] New state was assigned lineage "f243c3c3-ed36-4d0f-090b-2a6adea53a13"
+2019/07/16 20:54:27 [TRACE] Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)
+2019/07/16 20:54:27 [TRACE] Meta.Backend: instantiated backend of type <nil>
+2019/07/16 20:54:27 [DEBUG] checking for provider in "."
+2019/07/16 20:54:27 [DEBUG] checking for provider in "/usr/bin"
+2019/07/16 20:54:27 [DEBUG] checking for provider in ".terraform/plugins/linux_amd64"
+2019/07/16 20:54:27 [DEBUG] found provider "terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:54:27 [DEBUG] found valid plugin: "aws", "2.19.0", "/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4"
+2019/07/16 20:54:27 [DEBUG] checking for provisioner in "."
+2019/07/16 20:54:27 [DEBUG] checking for provisioner in "/usr/bin"
+2019/07/16 20:54:27 [DEBUG] checking for provisioner in ".terraform/plugins/linux_amd64"
+2019/07/16 20:54:27 [TRACE] Meta.Backend: backend <nil> does not support operations, so wrapping it in a local backend
+2019/07/16 20:54:27 [INFO] backend/local: starting Plan operation
+2019/07/16 20:54:27 [TRACE] backend/local: requesting state manager for workspace "default"
+2019/07/16 20:54:27 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2019/07/16 20:54:27 [TRACE] backend/local: requesting state lock for workspace "default"
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: preparing to manage state snapshots at terraform.tfstate
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: no previously-stored snapshot exists
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: locking terraform.tfstate using fcntl flock
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: writing lock metadata to .terraform.tfstate.lock.info
+2019/07/16 20:54:27 [TRACE] backend/local: reading remote state for workspace "default"
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: reading latest snapshot from terraform.tfstate
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2019/07/16 20:54:27 [TRACE] statemgr.Filesystem: read nil snapshot
+2019/07/16 20:54:27 [TRACE] backend/local: retrieving local state snapshot for workspace "default"
+2019/07/16 20:54:27 [TRACE] backend/local: building context for current working directory
+2019/07/16 20:54:27 [TRACE] terraform.NewContext: starting
+2019/07/16 20:54:27 [TRACE] terraform.NewContext: resolving provider version selections
+2019/07/16 20:54:28 [TRACE] terraform.NewContext: loading provider schemas
+2019/07/16 20:54:28 [TRACE] LoadSchemas: retrieving schema for provider type "aws"
+2019-07-16T20:54:28.306Z [INFO]  plugin: configuring client automatic mTLS
+2019-07-16T20:54:28.349Z [DEBUG] plugin: starting plugin: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 args=[/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4]
+2019-07-16T20:54:28.349Z [DEBUG] plugin: plugin started: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 pid=26338
+2019-07-16T20:54:28.349Z [DEBUG] plugin: waiting for RPC address: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4
+2019-07-16T20:54:28.370Z [INFO]  plugin.terraform-provider-aws_v2.19.0_x4: configuring server automatic mTLS: timestamp=2019-07-16T20:54:28.369Z
+2019-07-16T20:54:28.418Z [DEBUG] plugin.terraform-provider-aws_v2.19.0_x4: plugin address: address=/tmp/plugin248689107 network=unix timestamp=2019-07-16T20:54:28.418Z
+2019-07-16T20:54:28.418Z [DEBUG] plugin: using plugin: version=5
+2019/07/16 20:54:28 [TRACE] GRPCProvider: GetSchema
+2019/07/16 20:54:28 [TRACE] GRPCProvider: Close
+2019-07-16T20:54:28.608Z [DEBUG] plugin: plugin process exited: path=/home/ec2-user/environment/terra7/aws_instances/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.19.0_x4 pid=26338
+2019-07-16T20:54:28.608Z [DEBUG] plugin: plugin exited
+2019/07/16 20:54:28 [TRACE] LoadSchemas: retrieving schema for provisioner "remote-exec"
+2019-07-16T20:54:28.608Z [DEBUG] plugin: starting plugin: path=/usr/bin/terraform args=[/usr/bin/terraform, internal-plugin, provisioner, remote-exec]
+2019-07-16T20:54:28.609Z [DEBUG] plugin: plugin started: path=/usr/bin/terraform pid=26345
+2019-07-16T20:54:28.609Z [DEBUG] plugin: waiting for RPC address: path=/usr/bin/terraform
+2019-07-16T20:54:28.622Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [INFO] Terraform version: 0.12.4  
+2019-07-16T20:54:28.622Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [INFO] Go runtime version: go1.12.4
+2019-07-16T20:54:28.623Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [INFO] CLI args: []string{"/usr/bin/terraform", "internal-plugin", "provisioner", "remote-exec"}
+2019-07-16T20:54:28.623Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [DEBUG] Attempting to open CLI config file: /home/ec2-user/.terraformrc
+2019-07-16T20:54:28.623Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2019-07-16T20:54:28.624Z [DEBUG] plugin: using plugin: version=5
+2019-07-16T20:54:28.624Z [DEBUG] plugin.terraform: 2019/07/16 20:54:28 [INFO] CLI command args: []string{"internal-plugin", "provisioner", "remote-exec"}
+2019-07-16T20:54:28.624Z [DEBUG] plugin.terraform: remote-exec-provisioner (internal) 2019/07/16 20:54:28 [INFO] Starting provisioner plugin remote-exec
+2019-07-16T20:54:28.624Z [DEBUG] plugin.terraform: plugin address: network=unix address=/tmp/plugin482256815 timestamp=2019-07-16T20:54:28.623Z
+2019-07-16T20:54:28.627Z [DEBUG] plugin: plugin process exited: path=/usr/bin/terraform pid=26345
+2019-07-16T20:54:28.627Z [DEBUG] plugin: plugin exited
+2019/07/16 20:54:28 [TRACE] terraform.NewContext: complete
+2019/07/16 20:54:28 [TRACE] backend/local: finished building terraform.Context
+2019/07/16 20:54:28 [TRACE] backend/local: requesting interactive input, if necessary
+2019/07/16 20:54:28 [TRACE] Context.Input: Prompting for variables
+2019/07/16 20:54:28 [DEBUG] command: asking for input: "var.tags"
+2019/07/16 20:54:36 [TRACE] statemgr.Filesystem: removing lock metadata file .terraform.tfstate.lock.info
+2019/07/16 20:54:36 [TRACE] statemgr.Filesystem: unlocking terraform.tfstate using fcntl flock

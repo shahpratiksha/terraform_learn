@@ -2,3 +2,4 @@
 *.tfstate
 *.tfstate.backup
  terraform_0.11.11_linux_amd64.zip
+*.pem
