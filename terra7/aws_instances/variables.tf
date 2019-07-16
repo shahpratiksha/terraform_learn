@@ -12,6 +12,6 @@ variable "total_instances" {
 
 variable "cmds" {
     type = "list"
-    default = ["sudo yum -y install python"]
+    default = ["sudo apt-get -y install python"]
 }
 
